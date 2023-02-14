@@ -2,13 +2,14 @@
 please use to following script for setup:
 
 git clone https://github.com/aryeHoltzberg/Font_recognition.git   \ 
-cd Font_recognition/results/final/models/top_5 \ 
+cd Font_recognition/results/final/models/top_5 ; \ 
 wget   \
 https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_1_acc_0.8115740740740741.pt \
 https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_3_acc_0.8180555555555555.pt \
 https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_4_acc_0.8152777777777778.pt \
-https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_4_acc_0.8152777777777778.pt \
-https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_5_acc_0.7990740740740742.pt \
+https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_3_acc_0.8199074074074074.pt \ 
+https://github.com/aryeHoltzberg/Font_recognition/releases/download/V1.0/model_5_acc_0.7990740740740742.pt ; \
+cd ../../../../ ; 
 
 for predict:
 
