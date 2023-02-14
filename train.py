@@ -302,13 +302,12 @@ class Train():
 
 def main(args = None,num =0):
     T = Train(args.dataset_path)
-    T.load_model('results/final/models/model_6_acc_0.775462962962963.pt')
+    T.super_train(30)
     T.num_of_trans = 5
-
     T.update_dataset('datasets/datasets_03')
     T.num_of_trans = 3
-    T.super_train(10)
 
+    T.super_train(30)
     path = os.path.join('results/final/models',f'model_{num}_acc_{T.best_acc}.pt')
     T.save_best_model(num,path)
 
@@ -326,7 +325,7 @@ def main(args = None,num =0):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Genereate Synthetic Scene-Text Images')
     parser.add_argument('--dataset-path',action='store',dest='dataset_path',default = 'datasets/simple/dataset-0',type=str)
-    for i in range(1):
-        main(parser.parse_args(),6)
+    for i in range(5):
+        main(parser.parse_args(),i)
 
     

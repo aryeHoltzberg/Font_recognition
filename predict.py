@@ -3,6 +3,8 @@ from results_writer import ResultsWriter
 from tqdm import tqdm
 import argparse
 from create_dataset import SPLITTER2 ,PATH_SPLITTER
+
+
 def main(args):
     model = Model(args.data_path,predict_mode= True)
     print('start predicting')
