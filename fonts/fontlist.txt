@@ -1,5 +1,0 @@
-alex-brush/AlexBrush-Regular.ttf
-open-sans/OpenSans-Regular.ttf
-sansation/Sansation-Regular.ttf
-titillium-web/TitilliumWeb-Regular.ttf
-ubuntumono/UbuntuMono-Regular.ttf
